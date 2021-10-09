@@ -13,6 +13,9 @@ app.use(express.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname, '../public')))
 
 app.use(swagger)
+app.get('/', (req, res) => {
+  res.json({ version: '1.0' });
+});
 app.use("/v1/records", records);
 
 // catch 404 and forward to error handler
