@@ -9,11 +9,12 @@
 
 ## Documentation
 
+- Postman Doc
+https://documenter.getpostman.com/view/17854788/UUy7cQgC
+
 - Swagger Doc
 https://getir-assignment-deploy.herokuapp.com/api-docs/#/Public_API
 
-- Postman Doc
-https://documenter.getpostman.com/view/17854788/UUy7cQgC
 
 ## Setup
 
