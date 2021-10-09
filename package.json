@@ -35,7 +35,6 @@
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-jest": "^24.5.2",
     "eslint-plugin-promise": "^5.1.0",
-    "husky": "^4.0.0",
     "jest": "^25.0.0",
     "nodemon": "^2.0.3",
     "prettier-eslint-cli": "^5.0.0"
