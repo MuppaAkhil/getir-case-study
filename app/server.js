@@ -3,11 +3,10 @@ import {log} from './utils/logger';
 
 const NODE_ENV = process.env.NODE_ENV || "development";
 const PORT = process.env.PORT || "3000";
-const HOST = process.env.HOST || "localhost"; // '0.0.0.0'
 
 export function start() {
   app
-    .listen(PORT, HOST, () => {
+    .listen(PORT, () => {
       process.stdout.write(`Server is listening on ${PORT} (${NODE_ENV})\n`);
       log.info(`Server is listening on ${PORT} (${NODE_ENV})`);
     })
