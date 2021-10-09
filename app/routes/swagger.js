@@ -11,7 +11,7 @@ const app = new express.Router()
 export default app
 
 // Don't want auth in the way during local development, only enable when deployed in production mode
-if (process.env.NODE_ENV === 'production') {
+if (process.env.NODE_ENV === 'prod') {
   passport.use(new BasicStrategy((userid, password, done) => {
     if (userid === SWAGGER_AUTH_USER && password === SWAGGER_AUTH_PASS) {
       return done(null, true)
