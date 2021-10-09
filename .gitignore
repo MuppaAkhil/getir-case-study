@@ -1,0 +1,29 @@
+# Logs
+logs
+tmp
+*.log
+npm-debug.log*
+#test
+test-results
+# Dependency directories
+node_modules
+.DS_Store
+
+# Drone secrets (do not remove)
+secrets.yml
+
+*~
+
+.nyc_output
+uploads
+
+#ignore transpiled files
+transpiledsrc
+
+#ide directories
+.idea
+
+coverage
+
+#build dir
+dist
